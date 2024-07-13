@@ -1,77 +1,75 @@
 ![Texto Alternativo](/assets/imagemReadme/start.png)
 
-# Alertas Personalizados Twitch Exemplos
-Este guia apresenta exemplos de implementação de alertas personalizados para serem utilizados em transmissões ao vivo na plataforma Twitch. A criação desses alertas será realizada na própria plataforma nativa da Twitch, que dispõe de recursos notáveis, como a capacidade de manipular elementos HTML e CSS. Isso possibilita a realização de personalizações mais avançadas e aprimoradas.
+# Alertes personnalisées Exemples Twitch
+Ce guide présente des exemples de mise en œuvre d'alertes personnalisées pour être utilisés lors de diffusions en direct sur la plateforme Twitch. La création de ces alertes sera réalisée directement sur la plateforme native de Twitch, qui dispose de fonctionnalités remarquables, telles que la possibilité de manipuler des éléments HTML et CSS. Cela permet des personnalisations plus avancées et améliorées.
 
-![Texto Alternativo](/assets/imagemReadme/fly.png)
+## Sommaire
+- [Introduction](#introdução)
+- [Personnalisation](#personalização)
+  1. [Tableau de bord de création](#dashboard-de-criação)
+  2. [Écran de développement HTML](#tela-de-desenvolvimento-html)
+  3. [Écran de développement CSS](#tela-de-desenvolvimento-css)
+  4. [Aperçu](#preview)
+  5. [Arrière-plan personnalisé](#background-personalizado)
+  6. [Icône personnalisée](#ícone-personalizado)
+  7. [Conteneur de révision de code](#code-review-container)
+  8. [Nom d'utilisateur de révision de code](#code-review-username)
+  9. [Bits de révision de code](#code-review-bits)
+  10. [Importer une police](#import-font)
 
-## Índice
-- [Introdução](#introdução)
-- [Personalização](#personalização)
-  1. [Dashboard de criação](#dashboard-de-criação)
-  2. [Tela de desenvolvimento HTML](#tela-de-desenvolvimento-html)
-  3. [Tela de desenvolvimento CSS](#tela-de-desenvolvimento-css)
-  4. [Preview](#preview)
-  5. [Background personalizado](#background-personalizado)
-  6. [Ícone personalizado](#ícone-personalizado)
-  7. [Code Review Container](#code-review-container)
-  8. [Code Review Username](#code-review-username)
-  9. [Code Review Bits](#code-review-bits)
-  10. [Import Font](#import-font)
+- [Licence](#licença)
 
-- [Licença](#licença)
+## Introduction
+- Toute la personnalisation sera réalisée directement sur la plateforme Twitch.
+- Le guide démontre quelques inspirations pour vos propres designs, et tout le matériel nécessaire pour créer certains des exemples listés ci-dessus sera fourni.
+- Ne vous limitez pas aux exemples ; vous pouvez personnaliser comme bon vous semble.
 
-## Introdução
-- Toda a personalização será realizada diretamente na plataforma Twitch.
-- O guia demonstra algumas inspirações para os seus próprios designs, e também será fornecido todo o material para criar algums dos exemplos listados acima.
-- Não se limite apenas aos exemplos; você poderá personalizar da forma que mais lhe agradar.
+## Personnalisation
+Nous allons réaliser les personnalisations suivantes :
 
-## Personalização
-Iremos realizar as seguintes personalizações:
+- Tronquer un texte : Délimiter la taille maximale de la boîte de texte.
+- Déplacer des variables dans n'importe quelle région délimitée par le viewer.
+- Icônes personnalisées et les concaténer avec le texte comme exemple la quantité de Bits.
+- Arrière-plans personnalisés
+- Importer des polices personnalisées
 
-- Truncar um texto: Delimitar o tamanho máximo da caixa de texto.
-- Mover variáveis em qualquer região delimitada pela viewer.
-- Ícones personalizados e concatená-los junto ao texto como exemplo a quantidade de Bits.
-- Background personalizados
-- Importar Fonts personalizadas
+#### Attention ! Les tâches à exécuter sont liées à une lettre de l'alphabet. Exécutez-les dans l'ordre.
 
-#### Atenção! As tarefas a serem executadas estão relacionadas a uma letra do alfabeto. Execute em sequência.
-
-1. ### Dashboard de criação
+1. ### Tableau de bord de création
 ![Texto Alternativo](/assets/imagemReadme/home.png)
 
-2. ### Tela de desenvolvimento HTML
+2. ### Écran de développement HTML
 ![Texto Alternativo](/assets//imagemReadme/html01.png)
 
-3. ### Tela de desenvolvimento CSS
+3. ### Écran de développement CSS
 ![Texto Alternativo](/assets/imagemReadme/css01.png)
 
-4. ### Preview
+4. ### Aperçu
 ![Texto Alternativo](/assets/imagemReadme/css02.png)
 
-5. ### Background personalizado
+5. ### Arrière-plan personnalisé
 ![Texto Alternativo](/assets/imagemReadme/background.png)
 ![Texto Alternativo](/assets/imagemReadme/background01.png)
 ![Texto Alternativo](/assets/imagemReadme/background02.png)
 ![Texto Alternativo](/assets/imagemReadme/background03.png)
 
-6. ### Ícone personalizado
+6. ### Icône personnalisée
 ![Texto Alternativo](/assets/imagemReadme/iconbits.png)
 ![Texto Alternativo](/assets/imagemReadme/iconbits01.png)
 ![Texto Alternativo](/assets/imagemReadme/iconbits02.png)
 ![Texto Alternativo](/assets/imagemReadme/iconbits03.png)
 
-7. ### Code Review Container
+7. ### Conteneur de révision de code
 ![Texto Alternativo](/assets/imagemReadme/container.png)
 
-8. ### Code Review Username
+8. ### Nom d'utilisateur de révision de code
 ![Texto Alternativo](/assets/imagemReadme/username.png)
 
-9. ### Code Review Bits
+9. ### Bits de révision de code
 ![Texto Alternativo](/assets/imagemReadme/amount.png)
 
-9. ### Import Font
+9. ### Importer une police
 ![Texto Alternativo](/assets/imagemReadme/font.png)
 
-## Licença
-Este projeto é licenciado sob a [Licença MIT](LICENSE).
+## Licence
+Ce projet est licencié sous la  [Licence MIT](LICENSE).
