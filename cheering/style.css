@@ -1,11 +1,11 @@
-/* Estilos globais */
+/* Styles globaux */
 html,
 body {
     height: 100%;
     overflow: hidden;
 }
 
-/* Container externo */
+/* Conteneur externe */
 .alert_outer-container {
     display: flex;
     justify-content: center;
@@ -14,12 +14,12 @@ body {
     height: 100%;
 }
 
-/* Animação */
+/* Animation */
 .alert_outer-container.playing {
     animation: 15s alert-animation ease-in-out forwards;
 }
 
-/* Container principal */
+/* Conteneur principal */
 .alert_widget-container {
     display: flex;
     background-color: transparent;
@@ -29,7 +29,7 @@ body {
     border-radius: 0;
 }
 
-/* Container da imagem */
+/* Conteneur d'images */
 .alert_image-container {
     display: flex;
     width: 50%;
@@ -39,7 +39,7 @@ body {
     align-self: center;
 }
 
-/* Container de texto */
+/* Conteneur de texte */
 .alert_text-container {
     display: flex;
     align-items: center;
@@ -53,52 +53,52 @@ body {
     max-width: 100%;
 }
 
-/* Estilos do texto 1 */
+/* Styles de texte 1 */
 .alert_text1 {
     color: #ACACAC;
     font-family: "Urbanist Black";
     font-size: 26px;
     position: relative;
     transform: translate(60px, 0px);
-    /* Ajuste conforme necessário para posicionar o texto */
+    /* Ajuster si nécessaire pour positionner le texte */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    /* Adiciona reticências (...) para indicar que o texto foi truncado */
+    /* Ajoute des points de suspension (...) pour indiquer que le texte a été tronqué */
     max-width: 19ch;
-    /* Limita a largura máxima a 19 caracteres */
+    /* Limite la largeur maximale à 19 caractères */
 }
 
-/* Elemento adicional (bolinha) */
+/* Élément supplémentaire (balle) */
 .additional-icon {
     display: inline-block;
     width: 5px;
-    /* Largura desejada para a bolinha */
+    /* Largeur souhaitée pour le ballon */
     height: 5px;
-    /* Altura desejada para a bolinha */
+    /* Hauteur souhaitée pour le ballon */
     background-color: #FF0099;
-    /* Cor desejada para a bolinha */
+    /* Couleur souhaitée pour le ballon */
     border-radius: 50%;
-    /* Bordas arredondadas para criar uma bolinha */
+    /* Bords arrondis pour créer une boule */
     transform: translateY(-4px);
 }
 
-/* Estilos do texto 2 */
+/* Styles de texte 2 */
 .alert_text2 {
     color: #FF0099;
     font-family: "Zen Dots";
     font-size: 16px;
     transform: translate(-152px, -50px);
-    /* Move o elemento conforme necessário */
+    /* Déplacez l'élément selon vos besoins */
 }
 
-/* Texto auxiliar */
+/* Texte auxiliaire */
 .auxText {
     color: #ACACAC;
     font-size: 10px;
 }
 
-/* Animação de fade in e fade out */
+/* Animation de fondu entrant et sortant */
 @keyframes alert-animation {
     0%, 100% {
         opacity: 0;
@@ -108,7 +108,7 @@ body {
     }
 }
 
-/* Fonte personalizada - Exemplos de importação */
+/* Police personnalisée - Exemples d'importation */
 @font-face {
     font-family: "Zen Dots";
     src: url("https://db.onlinewebfonts.com/t/d5ef58e040edd381b80081342f282af0.woff") format("woff");
