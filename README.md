@@ -12,10 +12,6 @@ Ce guide présente des exemples de mise en œuvre d'alertes personnalisées pour
   4. [Aperçu](#preview)
   5. [Arrière-plan personnalisé](#background-personalizado)
   6. [Icône personnalisée](#ícone-personalizado)
-  7. [Conteneur de révision de code](#code-review-container)
-  8. [Nom d'utilisateur de révision de code](#code-review-username)
-  9. [Bits de révision de code](#code-review-bits)
-  10. [Importer une police](#import-font)
 
 - [Licence](#licença)
 
@@ -58,18 +54,6 @@ Nous allons réaliser les personnalisations suivantes :
 ![Texto Alternativo](/assets/imagemReadme/iconbits01.png)
 ![Texto Alternativo](/assets/imagemReadme/iconbits02.png)
 ![Texto Alternativo](/assets/imagemReadme/iconbits03.png)
-
-7. ### Conteneur de révision de code
-![Texto Alternativo](/assets/imagemReadme/container.png)
-
-8. ### Nom d'utilisateur de révision de code
-![Texto Alternativo](/assets/imagemReadme/username.png)
-
-9. ### Bits de révision de code
-![Texto Alternativo](/assets/imagemReadme/amount.png)
-
-9. ### Importer une police
-![Texto Alternativo](/assets/imagemReadme/font.png)
 
 ## Licence
 Ce projet est licencié sous la  [Licence MIT](LICENSE).
